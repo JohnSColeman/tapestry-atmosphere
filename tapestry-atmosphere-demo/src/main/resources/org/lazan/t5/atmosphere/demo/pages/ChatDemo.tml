@@ -77,13 +77,6 @@
     	<span class="label" style="background-color: ${userColor(chatMessage.fromUser)}">${chatMessage.fromUser}</span>
     	${chatMessage.message}<br />
     </t:block>
-    <t:block t:id="usersBlock">
-   		<ul>
-    		<t:loop source="updatedUsers" value="currentUser">
-    			<li>${currentUser}</li>
-    		</t:loop>
-    	</ul>
-    </t:block>
     
 	<h3>Source</h3>
 	<t:stitch.tabGroup>
